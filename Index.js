@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const port = 8000;
 
-fs.appendFile("Readm.md", "");
+fs.appendFile("Hello.txt", "Hello world!");
 
 
 app.get('/api/rooms', (req, res) => {
