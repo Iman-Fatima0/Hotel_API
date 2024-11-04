@@ -8,4 +8,4 @@ const rooms=[
     {id:7, room:107, type:'single', price:140, available:true},
 ]
 
-module.exports(rooms);
+module.exports=rooms;
